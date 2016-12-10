@@ -17,6 +17,7 @@
     z-index: 100;
     font-size: 24px;
     background-color: #4286f4;
+       min-width: 400px;
 
 }
 
