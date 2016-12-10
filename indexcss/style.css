@@ -6,7 +6,7 @@
 
 .navigationBar {
     font-family: 'Ravi Prakash', cursive;
-    position: absolute!important;
+    position: fixed!important;
     width: 100%;
     top: 0;
     left: 0;
@@ -14,8 +14,10 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    z-index: 20;
-    font-size: 18px;
+    z-index: 100;
+    font-size: 24px;
+    background-color: #4286f4;
+
 }
 
 .leftf {
@@ -30,110 +32,22 @@
     display: inline-block !important;
     color: white !important;
     text-align: center;
-    padding: 14px 16px !important;
+    padding: 20px 16px !important;
     text-decoration: none !important;
+
 }
+.nav1 {
 
+    padding: 14px 16px;
 
-/* Change the link color to #111 (black) on hover */
-
-.nav:hover{
   
 }
+.nav:hover
+{
+font-size: 20px;
 
-.nav1 {
-    display: inline-block !important;
-    color: white !important;
-    text-align: center !important;
-    padding: 14px 16px;
-    text-decoration: none !important;
 }
 
-.firstimage {
-    width: 100%;
-    height: 600px;
-    position: absolute;
-    top: 46px;
-    left: 0;
-    right: 0;
-    top: 0;
-}
-
-.getstrbox {
-    font-family: 'Open Sans', sans-serif;
-    position: absolute;
-    z-index: 21;
-    color: white;
-    width: 550px;
-    height: 300px;
-    left: 10%;
-    top: 17%;
-}
-
-.gsb {
-    position: absolute;
-    color: white;
-    background: none;
-    border: 2px solid white;
-    left: 35%;
-    top: 70%;
-    padding: 15px 32px;
-    text-align: center;
-    z-index: 21;
-    font-family: 'Ravi Prakash', cursive;
-    font-size: 34px;
-}
-
-.gsb:hover {
-    background-color: white;
-    color: #444;
-}
-
-.about {
-    display: block!important;
-    position: absolute;
-    top: 100%;
-    left: 40%;
-    color: #444 !important;
-    z-index: 22;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #2185d5;
-    text-decoration: none !important;
-}
-
-.aboutcontent {
-    position: absolute;
-    color: #929292;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
-    z-index: 22;
-    left: 20%;
-    right: 15%;
-    top: 120%;
-}
-
-footer {
-    text-align: center;
-    color: white;
-    width: 100%;
-    background-color:#006e96;
-    position: absolute;
-    top: 220% !important;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    overflow: hidden;
-    left: 0;
-    font-family: 'Ravi Prakash', cursive;
-}
-
-.logo {
-    display: block;
-    width: 100px;
-    height: auto;
-    cursor: pointer;
-}
 
 .dropdown-content {
     display: none;
@@ -145,7 +59,7 @@ footer {
     padding: 12px 16px !important;
 }
 .dropdown-content a {
-    color: white;
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -154,12 +68,108 @@ footer {
 
 .dropdown:hover .dropdown-content {
     display: block;
+    font-size: 15px;
+ transition-duration: 2s;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41!important;
+.dropdown:hover{
+    
 }
 .dropdown {
     position: relative;
     display: inline-block;
+
 }
+
+
+.leftf {
+    float: left!important;
+}
+
+.rightf {
+    float: right!important;
+}
+
+
+.box{
+
+    display: relative;
+display: block;
+height: 670px;}
+.firstimage {
+
+
+    width: 100%;
+    height: 600px;
+ display:block;
+position: absolute;
+   left: 0;
+    right: 0;
+margin-top: 70px;
+    z-index: 0;
+}
+
+
+.gsb {
+    position: relative;
+    color: white;
+ background: none;
+    border: 2px solid white;
+    padding: 15px 32px;
+    text-align: center;
+    z-index: 21;
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 34px;
+    left: 50%;
+    margin-left: -120px;
+    top: 80%;
+}
+
+.gsb:hover {
+    background-color: white;
+    color: #444;
+}
+.page2{display: block;
+    margin-top: 10%;
+  position: relative;
+}
+.about {
+    display:inline-block!important;
+    position: relative;
+    left: 50%;
+    margin-left: -100px;
+    color: #444 !important;
+    z-index: 22;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #2185d5;
+    text-decoration: none !important;
+
+}
+
+.aboutcontent {
+    margin-top: 2%;
+    position: relative;
+    color: #929292;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    z-index: 22;
+    margin-bottom: 250px;
+    margin-left:50px; 
+    margin-right:50px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color:#006e96;
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    bottom: 0;
+    font-family: 'Ravi Prakash', cursive;
+}
+
