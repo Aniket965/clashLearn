@@ -13,11 +13,11 @@
     list-style-type: none !important;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+   
     z-index: 100;
     font-size: 24px;
     background-color: #4286f4;
-       min-width: 400px;
+    min-width: 400px;
 
 }
 
@@ -39,7 +39,7 @@
 }
 .nav1 {
 
-    padding: 14px 16px;
+    padding: 7px 8px;
 
   
 }
@@ -93,20 +93,20 @@ font-size: 20px;
 
 
 .box{
+display: relative;
 
-    display: relative;
-display: block;
-height: 670px;}
+}
 .firstimage {
 
 
     width: 100%;
-    height: 600px;
- display:block;
-position: absolute;
-   left: 0;
-    right: 0;
-margin-top: 70px;
+    height: auto;
+
+   display: block;
+   position:absolute;
+   left: 0!important;
+   right: 0;
+  margin-top: 70px;
     z-index: 0;
 }
 
@@ -114,16 +114,17 @@ margin-top: 70px;
 .gsb {
     position: relative;
     color: white;
- background: none;
+    background:none;
     border: 2px solid white;
     padding: 15px 32px;
     text-align: center;
     z-index: 21;
     font-family: 'Ravi Prakash', cursive;
-    font-size: 34px;
-    left: 50%;
-    margin-left: -120px;
-    top: 80%;
+    font-size: 4vw;
+    margin-right: 32%;
+    margin-left: 32%;
+    margin-top:55%;
+    
 }
 
 .gsb:hover {
@@ -137,12 +138,12 @@ margin-top: 70px;
 .about {
     display:inline-block!important;
     position: relative;
-    left: 50%;
-    margin-left: -100px;
+    left: 35%;
+    right: 35%
     color: #444 !important;
     z-index: 22;
     font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
+    font-size: 4vw;
     padding-bottom: 20px;
     border-bottom: 2px solid #2185d5;
     text-decoration: none !important;
@@ -154,7 +155,7 @@ margin-top: 70px;
     position: relative;
     color: #929292;
     font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
+    font-size: 3vw;
     z-index: 22;
     margin-bottom: 250px;
     margin-left:50px; 
@@ -172,5 +173,6 @@ footer {
     overflow: hidden;
     bottom: 0;
     font-family: 'Ravi Prakash', cursive;
+    font-size: 2vw;
 }
 
