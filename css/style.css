@@ -1,5 +1,5 @@
 .pageheading{
-    
+
     color: #444 !important;
     z-index: 22;
     font-family: 'Open Sans', sans-serif;
@@ -8,8 +8,8 @@
     border-bottom: 2px solid #2185d5;
     text-decoration: none !important;
     width: auto;
-  
-   
+
+
 }
 .bordergreen
 {
@@ -47,7 +47,7 @@
 	padding-top: 8vh;
 }
 .firstimage
-{padding-top: 20px;}
+{padding-top: 2vw;}
 .backblue
 {
 	background-color: blue!important;
@@ -62,10 +62,10 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    z-index: 20;
+    z-index: 23;
     font-size: 24px;
     background-color: #4286f4;
-	min-width:400px;
+	/*min-width:400px;*/
 
 }
 
@@ -81,18 +81,29 @@
     display: inline-block !important;
     color: white !important;
     text-align: center;
-    padding: 20px 16px !important;
+    padding: 2vh 3vw!important;
     text-decoration: none !important;
 }
 .nav1 {
 
-    padding: 14px 16px;
+    padding: 2vw  1vh;
+    cursor: pointer;
 
-  
+
 }
 .nav:hover
 {
 	  font-size: 20px;
+
+}
+.logo {
+/*background-color: pink;
+*
+*
+**/
+display:inline;
+width: auto;
+height: auto;
 
 }
 
@@ -121,7 +132,7 @@
 }
 
 .dropdown:hover{
-    
+
 }
 .dropdown {
     position: relative;
