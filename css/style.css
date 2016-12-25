@@ -2,24 +2,28 @@
 
     color: #444 !important;
     z-index: 22;
+    margin-top: 10vh;
     font-family: 'Open Sans', sans-serif;
     font-size: 4vw;
     padding-bottom: 20px;
-    border-bottom: 2px solid #2185d5;
+    //background-color: pink;
     text-decoration: none !important;
-    width: auto;
-
+    width: 29vw;
+    margin-left: auto;
+    padding-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid blue ;
 
 }
 .bordergreen
 {
-
+width: 27vw!important;
 	 border-bottom: 2px solid #049b04 !important;
 }
 .borderred
 {
-
-	 border-bottom: 2px solid #e00606!important;
+   width: 19vw;
+   border-bottom: 2px solid #e00606!important;
 }
 .centerbox
 {
@@ -132,5 +136,53 @@ height: 6vw;
 .dropdown {
     position: relative;
     display: inline-block;
+}
+.spaceinbetween {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.box {
+  //background-color:  pink;
+  display: block;
+  position: relative;
+  width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-radius: 4vw 4vw 4vw 4vw;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+}
+.nonDecoration {
+  display: block;
+  color: black;
+  text-decoration: none!important;
+opacity: 0.7;
 
+}
+.nonDecoration:hover {
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-decoration-style: none;
+opacity: 1;
+
+}
+footer {
+  display: inline-block;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-top: 20vh;
+    color: white;
+    width: 100%;
+    background-color:red;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 2vw;
 }
